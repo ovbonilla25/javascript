@@ -73,6 +73,8 @@ for(var i=0;i<7;i++)
 /*FUNCIONES
 function nombre (){}
 */
+
+/*
 function sumar(numero1,numero2){
 	var resultado=numero1+numero2;
 	return resultado;
@@ -80,6 +82,15 @@ function sumar(numero1,numero2){
 
 var res=sumar(88,55);
 console.log("el resultado es",res);
+*/
+
+function iva(precio){
+	var riva=precio*(19/100);
+	return riva;
+}
+
+var resultado=iva(100000);
+console.log("EL IVA DEL PRODUCTO ES   -->  ",resultado);
 
 
 
